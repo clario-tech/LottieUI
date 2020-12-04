@@ -1,0 +1,10 @@
+build/*
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+*.xccheckout
+xcuserdata
+project.xcworkspace
+LottieUI.xcscmblueprint
+Adobe After Effects Auto-Save
+*.aep Logs

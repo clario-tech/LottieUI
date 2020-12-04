@@ -1,0 +1,20 @@
+//
+//  MacOSRelease.xcconfig
+//  LottieUI
+//
+//  Created by Viktor Radulov on 12/4/20.
+//
+
+#include "./../../Common.xcconfig"
+
+INFOPLIST_FILE = LottieUI/MacOS/Info.plist
+SDKROOT = macosx
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+
+ENABLE_NS_ASSERTIONS = NO
+
+SWIFT_COMPILATION_MODE = wholemodule
+SWIFT_OPTIMIZATION_LEVEL = -O
+
+OTHER_CODE_SIGN_FLAGS = --timestamp
+CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO

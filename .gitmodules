@@ -1,0 +1,3 @@
+[submodule "lottie"]
+	path = lottie
+	url = https://github.com/clario-tech/lottie-ios
