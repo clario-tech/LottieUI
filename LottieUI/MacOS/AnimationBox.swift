@@ -9,8 +9,8 @@
 import Cocoa
 import Lottie
 
-class AnimationBox: NSBox {
-    @IBInspectable private(set) var keyPath: String?
+public class AnimationBox: NSBox {
+    @IBInspectable private(set) public var keyPath: String?
     
     // The first frame of the shape layers
     // is misplaced and will be ignored.
@@ -20,9 +20,9 @@ class AnimationBox: NSBox {
 
 @objc
 extension AnimationBox: AnimationContent {
-    func layerAnimationRemoved(layer: CALayer) {}
+    public func layerAnimationRemoved(layer: CALayer) {}
     
-    func layerUpdated(layer: CALayer) {
+    public func layerUpdated(layer: CALayer) {
         if let contentLayer = (layer.sublayers?.first { $0 is CATextLayer }) as? CATextLayer {
             if contentLayer.frame.width > 0 && contentLayer.frame.height > 0 {
                 isHidden = contentLayer.isHidden

@@ -10,9 +10,9 @@ import Cocoa
 import Lottie
 
 typealias ButtonHandler = (NSButton) -> Void
-class AnimationButton: NSButton {
+public class AnimationButton: NSButton {
     
-    @IBInspectable private(set) var keyPath: String?
+    @IBInspectable private(set) public var keyPath: String?
     @IBInspectable private(set) var startMarker: String?
     @IBInspectable private(set) var endMarker: String?
     @IBInspectable private(set) var ignoreOpacityUpdates: Bool = false
@@ -55,7 +55,7 @@ class AnimationButton: NSButton {
         handler?(self)
     }
     
-    override func draw(_ dirtyRect: NSRect) {
+    public override func draw(_ dirtyRect: NSRect) {
         #if DEBUG
         if isEnabled {
             NSColor.red.setStroke()
@@ -72,7 +72,7 @@ class AnimationButton: NSButton {
         }
     }
     
-    override func sendAction(_ action: Selector?, to target: Any?) -> Bool {
+    public override func sendAction(_ action: Selector?, to target: Any?) -> Bool {
         guard let startMarker = startMarker,
             let animationView = superview as? AnimationView else {
             return super.sendAction(action, to: target)
@@ -98,9 +98,9 @@ class AnimationButton: NSButton {
 
 @objc
 extension AnimationButton: AnimationContent {
-    func layerAnimationRemoved(layer: CALayer) {}
+    public func layerAnimationRemoved(layer: CALayer) {}
     
-    func layerUpdated(layer: CALayer) {
+    public func layerUpdated(layer: CALayer) {
         if let contentLayer = (layer.sublayers?.first { $0 is CATextLayer }) as? CATextLayer {
             if contentLayer.frame.width > 0 && contentLayer.frame.height > 0 {
                 isHidden = contentLayer.isHidden

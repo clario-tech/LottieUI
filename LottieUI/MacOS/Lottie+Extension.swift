@@ -9,7 +9,7 @@
 import Cocoa
 import Lottie
 
-extension AnimationView {
+public extension AnimationView {
     func add<T: AnimationContent & NSView>(animationContent: T) {
         guard let keyPath = animationContent.keyPath else { return }
         let animationKeyPath = AnimationKeypath(keypath: keyPath)

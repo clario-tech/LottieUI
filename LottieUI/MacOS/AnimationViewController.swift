@@ -9,17 +9,17 @@
 import AppKit
 import Lottie
 
-class AnimationViewController: NSViewController {
+open class AnimationViewController: NSViewController {
     
     private var canRunManualTransition = true
     
-    var animationView: AnimationView {
+    public var animationView: AnimationView {
         assert(view as? AnimationView != nil, "Animation view controller root view should be AnimationView")
         // Empty AnimationViewController() edge case on uninstalling
         return (view as? AnimationView) ?? AnimationView()
     }
     
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         
         animationView.subviews.compactMap { $0 as? AnimationContent }.forEach {
@@ -89,7 +89,7 @@ class AnimationViewController: NSViewController {
         })
     }
     
-    override func scrollWheel(with event: NSEvent) {
+    public override func scrollWheel(with event: NSEvent) {
         if let previousTime = previousStateProgressTime, NSEvent.isSwipeTrackingFromScrollEventsEnabled, event.deltaX > 0, !animationView.isAnimationPlaying {
             rollBack(to: previousTime)
         } else {

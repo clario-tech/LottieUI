@@ -8,6 +8,6 @@
 
 import Lottie
 
-protocol AnimationContent: CompositionLayerDependency {
+public protocol AnimationContent: CompositionLayerDependency {
     var keyPath: String? { get }
 }

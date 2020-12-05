@@ -9,32 +9,17 @@
 /* Begin PBXBuildFile section */
 		B9AE6984257ACD4300EDED9E /* LottieUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B9AE6982257ACD4300EDED9E /* LottieUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9AE69BD257AD59700EDED9E /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE69BC257AD59700EDED9E /* Lottie.framework */; };
-		B9AE69BE257AD59700EDED9E /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE69BC257AD59700EDED9E /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B9AE69CA257AE67000EDED9E /* AnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C0257AE67000EDED9E /* AnimationButton.swift */; };
 		B9AE69CB257AE67000EDED9E /* AnimationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C1257AE67000EDED9E /* AnimationField.swift */; };
 		B9AE69CC257AE67000EDED9E /* AnimationBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C2257AE67000EDED9E /* AnimationBox.swift */; };
 		B9AE69CD257AE67000EDED9E /* AnimationProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C3257AE67000EDED9E /* AnimationProgressIndicator.swift */; };
 		B9AE69CE257AE67000EDED9E /* CompositeAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C4257AE67000EDED9E /* CompositeAnimationButton.swift */; };
 		B9AE69CF257AE67000EDED9E /* Lottie+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C5257AE67000EDED9E /* Lottie+Extension.swift */; };
-		B9AE69D0257AE67000EDED9E /* HoverAnimatingPopupIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C6257AE67000EDED9E /* HoverAnimatingPopupIconView.swift */; };
+		B9AE69D0257AE67000EDED9E /* HoverAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C6257AE67000EDED9E /* HoverAnimationView.swift */; };
 		B9AE69D1257AE67000EDED9E /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C7257AE67000EDED9E /* AnimationViewController.swift */; };
 		B9AE69D3257AE67000EDED9E /* AnimationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C9257AE67000EDED9E /* AnimationContent.swift */; };
 		B9AE69D5257AE6C800EDED9E /* CoreGraphics+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69D4257AE6C800EDED9E /* CoreGraphics+Extensions.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B9AE69BF257AD59700EDED9E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B9AE69BE257AD59700EDED9E /* Lottie.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B9AE697F257ACD4300EDED9E /* LottieUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LottieUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +35,7 @@
 		B9AE69C3257AE67000EDED9E /* AnimationProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationProgressIndicator.swift; sourceTree = "<group>"; };
 		B9AE69C4257AE67000EDED9E /* CompositeAnimationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeAnimationButton.swift; sourceTree = "<group>"; };
 		B9AE69C5257AE67000EDED9E /* Lottie+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lottie+Extension.swift"; sourceTree = "<group>"; };
-		B9AE69C6257AE67000EDED9E /* HoverAnimatingPopupIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoverAnimatingPopupIconView.swift; sourceTree = "<group>"; };
+		B9AE69C6257AE67000EDED9E /* HoverAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoverAnimationView.swift; sourceTree = "<group>"; };
 		B9AE69C7257AE67000EDED9E /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		B9AE69C9257AE67000EDED9E /* AnimationContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationContent.swift; sourceTree = "<group>"; };
 		B9AE69D4257AE6C800EDED9E /* CoreGraphics+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Extensions.swift"; sourceTree = "<group>"; };
@@ -98,14 +83,14 @@
 		B9AE698C257ACDA200EDED9E /* MacOS */ = {
 			isa = PBXGroup;
 			children = (
-				B9AE69C2257AE67000EDED9E /* AnimationBox.swift */,
-				B9AE69C0257AE67000EDED9E /* AnimationButton.swift */,
+				B9AE69C7257AE67000EDED9E /* AnimationViewController.swift */,
 				B9AE69C9257AE67000EDED9E /* AnimationContent.swift */,
+				B9AE69C0257AE67000EDED9E /* AnimationButton.swift */,
+				B9AE69C4257AE67000EDED9E /* CompositeAnimationButton.swift */,
 				B9AE69C1257AE67000EDED9E /* AnimationField.swift */,
 				B9AE69C3257AE67000EDED9E /* AnimationProgressIndicator.swift */,
-				B9AE69C7257AE67000EDED9E /* AnimationViewController.swift */,
-				B9AE69C4257AE67000EDED9E /* CompositeAnimationButton.swift */,
-				B9AE69C6257AE67000EDED9E /* HoverAnimatingPopupIconView.swift */,
+				B9AE69C2257AE67000EDED9E /* AnimationBox.swift */,
+				B9AE69C6257AE67000EDED9E /* HoverAnimationView.swift */,
 				B9AE69C5257AE67000EDED9E /* Lottie+Extension.swift */,
 				B9AE69D4257AE6C800EDED9E /* CoreGraphics+Extensions.swift */,
 				B9AE6994257AD22200EDED9E /* Info.plist */,
@@ -161,7 +146,6 @@
 				B9AE697B257ACD4300EDED9E /* Sources */,
 				B9AE697C257ACD4300EDED9E /* Frameworks */,
 				B9AE697D257ACD4300EDED9E /* Resources */,
-				B9AE69BF257AD59700EDED9E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9AE69D0257AE67000EDED9E /* HoverAnimatingPopupIconView.swift in Sources */,
+				B9AE69D0257AE67000EDED9E /* HoverAnimationView.swift in Sources */,
 				B9AE69CA257AE67000EDED9E /* AnimationButton.swift in Sources */,
 				B9AE69D3257AE67000EDED9E /* AnimationContent.swift in Sources */,
 				B9AE69CC257AE67000EDED9E /* AnimationBox.swift in Sources */,

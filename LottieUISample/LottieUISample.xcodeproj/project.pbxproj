@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9AE69E8257BAF7C00EDED9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69E7257BAF7C00EDED9E /* AppDelegate.swift */; };
+		B9AE69EA257BAF7C00EDED9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69E9257BAF7C00EDED9E /* ViewController.swift */; };
+		B9AE69EC257BAF7D00EDED9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AE69EB257BAF7D00EDED9E /* Assets.xcassets */; };
+		B9AE69EF257BAF7D00EDED9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AE69ED257BAF7D00EDED9E /* Main.storyboard */; };
+		B9AE69FA257BAFAE00EDED9E /* LottieUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE69F9257BAFAE00EDED9E /* LottieUI.framework */; };
+		B9AE69FB257BAFAE00EDED9E /* LottieUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE69F9257BAFAE00EDED9E /* LottieUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B9AE6A07257BB97B00EDED9E /* JetBrainsMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE69FE257BB97B00EDED9E /* JetBrainsMono-Medium.ttf */; };
+		B9AE6A08257BB97B00EDED9E /* JetBrainsMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE69FF257BB97B00EDED9E /* JetBrainsMono-Bold.ttf */; };
+		B9AE6A09257BB97B00EDED9E /* JetBrainsMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A00257BB97B00EDED9E /* JetBrainsMono-ExtraLight.ttf */; };
+		B9AE6A0A257BB97B00EDED9E /* JetBrainsMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A01257BB97B00EDED9E /* JetBrainsMono-Regular.ttf */; };
+		B9AE6A0B257BB97B00EDED9E /* JetBrainsMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A02257BB97B00EDED9E /* JetBrainsMono-Thin.ttf */; };
+		B9AE6A0C257BB97B00EDED9E /* JetBrainsMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A03257BB97B00EDED9E /* JetBrainsMono-Italic.ttf */; };
+		B9AE6A0D257BB97B00EDED9E /* JetBrainsMono-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A04257BB97B00EDED9E /* JetBrainsMono-ExtraBold.ttf */; };
+		B9AE6A0E257BB97B00EDED9E /* JetBrainsMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A05257BB97B00EDED9E /* JetBrainsMono-SemiBold.ttf */; };
+		B9AE6A0F257BB97B00EDED9E /* JetBrainsMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A06257BB97B00EDED9E /* JetBrainsMono-Light.ttf */; };
+		B9AE6A12257BB9E000EDED9E /* 1056241610-preview.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A10257BB9E000EDED9E /* 1056241610-preview.mp4 */; };
+		B9AE6A13257BB9E000EDED9E /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A11257BB9E000EDED9E /* main.json */; };
+		B9AE6A16257BD73A00EDED9E /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE6A15257BD73A00EDED9E /* Lottie.framework */; };
+		B9AE6A17257BD73A00EDED9E /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE6A15257BD73A00EDED9E /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9AE69FC257BAFAE00EDED9E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B9AE69FB257BAFAE00EDED9E /* LottieUI.framework in Embed Frameworks */,
+				B9AE6A17257BD73A00EDED9E /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B9AE69E4257BAF7C00EDED9E /* LottieUISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieUISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AE69E7257BAF7C00EDED9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9AE69E9257BAF7C00EDED9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9AE69EB257BAF7D00EDED9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9AE69EE257BAF7D00EDED9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9AE69F0257BAF7D00EDED9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9AE69F1257BAF7D00EDED9E /* LottieUISample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LottieUISample.entitlements; sourceTree = "<group>"; };
+		B9AE69F9257BAFAE00EDED9E /* LottieUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LottieUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AE69FE257BB97B00EDED9E /* JetBrainsMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Medium.ttf"; sourceTree = "<group>"; };
+		B9AE69FF257BB97B00EDED9E /* JetBrainsMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Bold.ttf"; sourceTree = "<group>"; };
+		B9AE6A00257BB97B00EDED9E /* JetBrainsMono-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B9AE6A01257BB97B00EDED9E /* JetBrainsMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Regular.ttf"; sourceTree = "<group>"; };
+		B9AE6A02257BB97B00EDED9E /* JetBrainsMono-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Thin.ttf"; sourceTree = "<group>"; };
+		B9AE6A03257BB97B00EDED9E /* JetBrainsMono-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Italic.ttf"; sourceTree = "<group>"; };
+		B9AE6A04257BB97B00EDED9E /* JetBrainsMono-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B9AE6A05257BB97B00EDED9E /* JetBrainsMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		B9AE6A06257BB97B00EDED9E /* JetBrainsMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Light.ttf"; sourceTree = "<group>"; };
+		B9AE6A10257BB9E000EDED9E /* 1056241610-preview.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1056241610-preview.mp4"; sourceTree = "<group>"; };
+		B9AE6A11257BB9E000EDED9E /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
+		B9AE6A15257BD73A00EDED9E /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9AE69E1257BAF7C00EDED9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AE69FA257BAFAE00EDED9E /* LottieUI.framework in Frameworks */,
+				B9AE6A16257BD73A00EDED9E /* Lottie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9AE69DB257BAF7C00EDED9E = {
+			isa = PBXGroup;
+			children = (
+				B9AE69E6257BAF7C00EDED9E /* LottieUISample */,
+				B9AE69E5257BAF7C00EDED9E /* Products */,
+				B9AE69F8257BAFAE00EDED9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9AE69E5257BAF7C00EDED9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9AE69E4257BAF7C00EDED9E /* LottieUISample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9AE69E6257BAF7C00EDED9E /* LottieUISample */ = {
+			isa = PBXGroup;
+			children = (
+				B9AE6A10257BB9E000EDED9E /* 1056241610-preview.mp4 */,
+				B9AE6A11257BB9E000EDED9E /* main.json */,
+				B9AE69E7257BAF7C00EDED9E /* AppDelegate.swift */,
+				B9AE69E9257BAF7C00EDED9E /* ViewController.swift */,
+				B9AE69EB257BAF7D00EDED9E /* Assets.xcassets */,
+				B9AE69ED257BAF7D00EDED9E /* Main.storyboard */,
+				B9AE69F0257BAF7D00EDED9E /* Info.plist */,
+				B9AE69F1257BAF7D00EDED9E /* LottieUISample.entitlements */,
+				B9AE69FD257BB8DD00EDED9E /* Fonts */,
+			);
+			path = LottieUISample;
+			sourceTree = "<group>";
+		};
+		B9AE69F8257BAFAE00EDED9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9AE6A15257BD73A00EDED9E /* Lottie.framework */,
+				B9AE69F9257BAFAE00EDED9E /* LottieUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9AE69FD257BB8DD00EDED9E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B9AE69FF257BB97B00EDED9E /* JetBrainsMono-Bold.ttf */,
+				B9AE6A04257BB97B00EDED9E /* JetBrainsMono-ExtraBold.ttf */,
+				B9AE6A00257BB97B00EDED9E /* JetBrainsMono-ExtraLight.ttf */,
+				B9AE6A03257BB97B00EDED9E /* JetBrainsMono-Italic.ttf */,
+				B9AE6A06257BB97B00EDED9E /* JetBrainsMono-Light.ttf */,
+				B9AE69FE257BB97B00EDED9E /* JetBrainsMono-Medium.ttf */,
+				B9AE6A01257BB97B00EDED9E /* JetBrainsMono-Regular.ttf */,
+				B9AE6A05257BB97B00EDED9E /* JetBrainsMono-SemiBold.ttf */,
+				B9AE6A02257BB97B00EDED9E /* JetBrainsMono-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9AE69E3257BAF7C00EDED9E /* LottieUISample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9AE69F4257BAF7D00EDED9E /* Build configuration list for PBXNativeTarget "LottieUISample" */;
+			buildPhases = (
+				B9AE69E0257BAF7C00EDED9E /* Sources */,
+				B9AE69E1257BAF7C00EDED9E /* Frameworks */,
+				B9AE69E2257BAF7C00EDED9E /* Resources */,
+				B9AE69FC257BAFAE00EDED9E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottieUISample;
+			productName = LottieUISample;
+			productReference = B9AE69E4257BAF7C00EDED9E /* LottieUISample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9AE69DC257BAF7C00EDED9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B9AE69E3257BAF7C00EDED9E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = B9AE69DF257BAF7C00EDED9E /* Build configuration list for PBXProject "LottieUISample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9AE69DB257BAF7C00EDED9E;
+			productRefGroup = B9AE69E5257BAF7C00EDED9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9AE69E3257BAF7C00EDED9E /* LottieUISample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9AE69E2257BAF7C00EDED9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AE6A0D257BB97B00EDED9E /* JetBrainsMono-ExtraBold.ttf in Resources */,
+				B9AE6A0E257BB97B00EDED9E /* JetBrainsMono-SemiBold.ttf in Resources */,
+				B9AE6A07257BB97B00EDED9E /* JetBrainsMono-Medium.ttf in Resources */,
+				B9AE69EC257BAF7D00EDED9E /* Assets.xcassets in Resources */,
+				B9AE6A0C257BB97B00EDED9E /* JetBrainsMono-Italic.ttf in Resources */,
+				B9AE6A09257BB97B00EDED9E /* JetBrainsMono-ExtraLight.ttf in Resources */,
+				B9AE6A12257BB9E000EDED9E /* 1056241610-preview.mp4 in Resources */,
+				B9AE69EF257BAF7D00EDED9E /* Main.storyboard in Resources */,
+				B9AE6A0F257BB97B00EDED9E /* JetBrainsMono-Light.ttf in Resources */,
+				B9AE6A08257BB97B00EDED9E /* JetBrainsMono-Bold.ttf in Resources */,
+				B9AE6A13257BB9E000EDED9E /* main.json in Resources */,
+				B9AE6A0B257BB97B00EDED9E /* JetBrainsMono-Thin.ttf in Resources */,
+				B9AE6A0A257BB97B00EDED9E /* JetBrainsMono-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9AE69E0257BAF7C00EDED9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AE69EA257BAF7C00EDED9E /* ViewController.swift in Sources */,
+				B9AE69E8257BAF7C00EDED9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9AE69ED257BAF7D00EDED9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9AE69EE257BAF7D00EDED9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9AE69F2257BAF7D00EDED9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9AE69F3257BAF7D00EDED9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B9AE69F5257BAF7D00EDED9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LottieUISample/LottieUISample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 235885SBVV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LottieUISample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.clario.LottieUISample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B9AE69F6257BAF7D00EDED9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LottieUISample/LottieUISample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 235885SBVV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LottieUISample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.clario.LottieUISample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9AE69DF257BAF7C00EDED9E /* Build configuration list for PBXProject "LottieUISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9AE69F2257BAF7D00EDED9E /* Debug */,
+				B9AE69F3257BAF7D00EDED9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9AE69F4257BAF7D00EDED9E /* Build configuration list for PBXNativeTarget "LottieUISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9AE69F5257BAF7D00EDED9E /* Debug */,
+				B9AE69F6257BAF7D00EDED9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9AE69DC257BAF7C00EDED9E /* Project object */;
+}

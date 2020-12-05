@@ -1,5 +1,5 @@
 //
-//  AnimationHoverPopupIcon.swift
+//  HoverAnimationView.swift
 //  LottieUI
 //
 //  Created by Volodimir Moskaliuk on 10/27/19.
@@ -9,7 +9,7 @@
 import AppKit
 import Lottie
 
-class HoverAnimatingPopupIconView: NSView {
+class HoverAnimationView: NSView {
     
     @IBInspectable private(set) var keyPath: String?
     @IBInspectable private(set) var animationName: String?
@@ -68,7 +68,7 @@ class HoverAnimatingPopupIconView: NSView {
     }
 }
 
-extension HoverAnimatingPopupIconView: AnimationContent {
+extension HoverAnimationView: AnimationContent {
     func layerAnimationRemoved(layer: CALayer) {
         isHidden = true
         frame = .zero

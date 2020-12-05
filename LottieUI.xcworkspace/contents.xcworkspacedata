@@ -7,4 +7,7 @@
    <FileRef
       location = "group:lottie/Lottie.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:LottieUISample/LottieUISample.xcodeproj">
+   </FileRef>
 </Workspace>
