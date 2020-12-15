@@ -15,5 +15,8 @@ class ViewController: AnimationViewController {
         
         animationView.play(toMarker: "screen1")
     }
+    @IBAction func next(_ sender: Any) {
+        animationView.play(toMarker: "screen2")
+    }
 }
 

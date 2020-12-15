@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B975A9B125852C70000B9EA5 /* IntroPart1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B975A9AF25852C6F000B9EA5 /* IntroPart1.mp4 */; };
+		B975A9B225852C70000B9EA5 /* IntroPart2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B975A9B025852C70000B9EA5 /* IntroPart2.mp4 */; };
 		B9AE69E8257BAF7C00EDED9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69E7257BAF7C00EDED9E /* AppDelegate.swift */; };
 		B9AE69EA257BAF7C00EDED9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69E9257BAF7C00EDED9E /* ViewController.swift */; };
 		B9AE69EC257BAF7D00EDED9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AE69EB257BAF7D00EDED9E /* Assets.xcassets */; };
@@ -22,7 +24,6 @@
 		B9AE6A0D257BB97B00EDED9E /* JetBrainsMono-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A04257BB97B00EDED9E /* JetBrainsMono-ExtraBold.ttf */; };
 		B9AE6A0E257BB97B00EDED9E /* JetBrainsMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A05257BB97B00EDED9E /* JetBrainsMono-SemiBold.ttf */; };
 		B9AE6A0F257BB97B00EDED9E /* JetBrainsMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A06257BB97B00EDED9E /* JetBrainsMono-Light.ttf */; };
-		B9AE6A12257BB9E000EDED9E /* 1056241610-preview.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A10257BB9E000EDED9E /* 1056241610-preview.mp4 */; };
 		B9AE6A13257BB9E000EDED9E /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A11257BB9E000EDED9E /* main.json */; };
 		B9AE6A16257BD73A00EDED9E /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE6A15257BD73A00EDED9E /* Lottie.framework */; };
 		B9AE6A17257BD73A00EDED9E /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE6A15257BD73A00EDED9E /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -44,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B975A9AF25852C6F000B9EA5 /* IntroPart1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroPart1.mp4; sourceTree = "<group>"; };
+		B975A9B025852C70000B9EA5 /* IntroPart2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroPart2.mp4; sourceTree = "<group>"; };
 		B9AE69E4257BAF7C00EDED9E /* LottieUISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieUISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AE69E7257BAF7C00EDED9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9AE69E9257BAF7C00EDED9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +64,6 @@
 		B9AE6A04257BB97B00EDED9E /* JetBrainsMono-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-ExtraBold.ttf"; sourceTree = "<group>"; };
 		B9AE6A05257BB97B00EDED9E /* JetBrainsMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-SemiBold.ttf"; sourceTree = "<group>"; };
 		B9AE6A06257BB97B00EDED9E /* JetBrainsMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Light.ttf"; sourceTree = "<group>"; };
-		B9AE6A10257BB9E000EDED9E /* 1056241610-preview.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1056241610-preview.mp4"; sourceTree = "<group>"; };
 		B9AE6A11257BB9E000EDED9E /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
 		B9AE6A15257BD73A00EDED9E /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -99,7 +101,8 @@
 		B9AE69E6257BAF7C00EDED9E /* LottieUISample */ = {
 			isa = PBXGroup;
 			children = (
-				B9AE6A10257BB9E000EDED9E /* 1056241610-preview.mp4 */,
+				B975A9AF25852C6F000B9EA5 /* IntroPart1.mp4 */,
+				B975A9B025852C70000B9EA5 /* IntroPart2.mp4 */,
 				B9AE6A11257BB9E000EDED9E /* main.json */,
 				B9AE69E7257BAF7C00EDED9E /* AppDelegate.swift */,
 				B9AE69E9257BAF7C00EDED9E /* ViewController.swift */,
@@ -201,11 +204,12 @@
 				B9AE69EC257BAF7D00EDED9E /* Assets.xcassets in Resources */,
 				B9AE6A0C257BB97B00EDED9E /* JetBrainsMono-Italic.ttf in Resources */,
 				B9AE6A09257BB97B00EDED9E /* JetBrainsMono-ExtraLight.ttf in Resources */,
-				B9AE6A12257BB9E000EDED9E /* 1056241610-preview.mp4 in Resources */,
 				B9AE69EF257BAF7D00EDED9E /* Main.storyboard in Resources */,
 				B9AE6A0F257BB97B00EDED9E /* JetBrainsMono-Light.ttf in Resources */,
+				B975A9B225852C70000B9EA5 /* IntroPart2.mp4 in Resources */,
 				B9AE6A08257BB97B00EDED9E /* JetBrainsMono-Bold.ttf in Resources */,
 				B9AE6A13257BB9E000EDED9E /* main.json in Resources */,
+				B975A9B125852C70000B9EA5 /* IntroPart1.mp4 in Resources */,
 				B9AE6A0B257BB97B00EDED9E /* JetBrainsMono-Thin.ttf in Resources */,
 				B9AE6A0A257BB97B00EDED9E /* JetBrainsMono-Regular.ttf in Resources */,
 			);

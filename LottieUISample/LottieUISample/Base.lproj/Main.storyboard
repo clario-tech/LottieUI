@@ -688,10 +688,10 @@
                     <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="800" height="600"/>
+                        <rect key="contentRect" x="196" y="240" width="1080" height="720"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
-                        <value key="minSize" type="size" width="800" height="600"/>
-                        <value key="maxSize" type="size" width="800" height="600"/>
+                        <value key="minSize" type="size" width="1080" height="720"/>
+                        <value key="maxSize" type="size" width="1080" height="720"/>
                         <toolbar key="toolbar" implicitIdentifier="F71E33DA-7D20-4C93-A028-35D7EC05FB2A" autosavesConfiguration="NO" allowsUserCustomization="NO" showsBaselineSeparator="NO" displayMode="iconAndLabel" sizeMode="regular" id="TWW-es-a65">
                             <allowedToolbarItems/>
                             <defaultToolbarItems/>
@@ -715,9 +715,25 @@
                     <view key="view" id="m2S-Jp-Qdl" customClass="AnimationView" customModule="Lottie">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button hidden="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="54v-AW-HlG" customClass="AnimationButton" customModule="LottieUI">
+                                <rect key="frame" x="211" y="49" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="bevel" title="Next" bezelStyle="regularSquare" alignment="center" imageScaling="proportionallyDown" inset="2" id="Gn3-uK-zpI">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="keyPath" value="NextButton"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="next:" target="XfG-lQ-9wD" id="pXh-dJ-DW8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="main"/>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="loopVideos" value="YES"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="main"/>
                         </userDefinedRuntimeAttributes>
                     </view>
                 </viewController>
