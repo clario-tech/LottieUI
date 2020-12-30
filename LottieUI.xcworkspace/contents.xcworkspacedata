@@ -10,4 +10,17 @@
    <FileRef
       location = "group:LottieUISample/LottieUISample.xcodeproj">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "GitStuff">
+      <FileRef
+         location = "group:.github/workflows/main.yml">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Package.swift">
+   </FileRef>
 </Workspace>

@@ -7,6 +7,7 @@
 //
 
 import Lottie
+import Foundation
 
 class AutoAnimationView: AnimationView {
     @IBInspectable var startWhenAppear: Bool = false

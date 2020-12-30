@@ -11,7 +11,6 @@ import Lottie
 
 typealias ButtonHandler = (UIButton) -> Void
 
-@objc
 public class AnimationButton: UIButton {
     
     @IBInspectable private(set) public var keyPath: String?

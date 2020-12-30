@@ -4,6 +4,8 @@ Framework for Lottie-driven UI.
 
 ## Lottie-driven?
 
+Check the [Medium article](https://medium.com/clario/a-lottie-driven-ui-architecture-for-macos-ios-applications-c3380989c885)
+
 It means that the core of your screen will be Lottie animation. The animation will serve as a background and guide for controls.
 This is similar to active prototypes like Figma. But using LottieUI you can create fast and beautiful native apps.
 
@@ -12,8 +14,23 @@ animations like spinners or preloaders. But now you can create interactive scree
 
 ## Installing
 
-LottieUI only supports git submodules for now. You can add this project as a submodule and incorporate LottieUI.xcodeproj.
+### Submodule
+
+You can add this project as a submodule and incorporate LottieUI.xcodeproj.
 But don't forget to pull our submodules too!
+
+### Cocoapods 
+
+// TODO
+
+### Swift Package Manager
+
+- LottieUI lib for MacOS
+- LottieUITouch lib for iOS
+
+### Binary
+
+Grab last artifacts from GithubActions or from Release page
 
 ## Sample
 

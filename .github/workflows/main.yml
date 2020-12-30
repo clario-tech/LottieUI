@@ -12,6 +12,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: true
     
     - name: Build
       run: xcodebuild build -workspace LottieUI.xcworkspace -scheme LottieUI -derivedDataPath ci_build -configuration Release
@@ -26,6 +28,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: true
     
     - name: Build
       run: xcodebuild build -workspace LottieUI.xcworkspace -scheme LottieUITouch -derivedDataPath ci_build -configuration Release
