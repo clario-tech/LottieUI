@@ -1,0 +1,18 @@
+//
+//  iOSDebug.xcconfig
+//  LottieUI
+//
+//  Created by Viktor Radulov on 12/15/20.
+//
+
+#include "./../../Common.xcconfig"
+
+INFOPLIST_FILE = LottieUI/iOS/Info.plist
+SDKROOT = iphoneos
+DEBUG_INFORMATION_FORMAT = dwarf
+ENABLE_TESTABILITY = YES
+GCC_OPTIMIZATION_LEVEL = 0
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 $(inherited)
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG $(inherited)
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE

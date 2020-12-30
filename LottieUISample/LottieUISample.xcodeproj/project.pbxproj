@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B940FDBB259D05770094D60B /* LottieUITouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940FDBA259D05770094D60B /* LottieUITouch.framework */; };
+		B940FDBC259D05770094D60B /* LottieUITouch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B940FDBA259D05770094D60B /* LottieUITouch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B940FDBE259D05F60094D60B /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A11257BB9E000EDED9E /* main.json */; };
+		B940FDBF259D05FA0094D60B /* IntroPart1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B975A9AF25852C6F000B9EA5 /* IntroPart1.mp4 */; };
+		B940FDC0259D05FD0094D60B /* IntroPart2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B975A9B025852C70000B9EA5 /* IntroPart2.mp4 */; };
+		B940FDC1259D06710094D60B /* JetBrainsMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A06257BB97B00EDED9E /* JetBrainsMono-Light.ttf */; };
+		B940FDC2259D06710094D60B /* JetBrainsMono-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A04257BB97B00EDED9E /* JetBrainsMono-ExtraBold.ttf */; };
+		B940FDC3259D06710094D60B /* JetBrainsMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE69FE257BB97B00EDED9E /* JetBrainsMono-Medium.ttf */; };
+		B940FDC4259D06710094D60B /* JetBrainsMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A05257BB97B00EDED9E /* JetBrainsMono-SemiBold.ttf */; };
+		B940FDC5259D06710094D60B /* JetBrainsMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE69FF257BB97B00EDED9E /* JetBrainsMono-Bold.ttf */; };
+		B940FDC6259D06710094D60B /* JetBrainsMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A00257BB97B00EDED9E /* JetBrainsMono-ExtraLight.ttf */; };
+		B940FDC7259D06710094D60B /* JetBrainsMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A03257BB97B00EDED9E /* JetBrainsMono-Italic.ttf */; };
+		B940FDC8259D06710094D60B /* JetBrainsMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A01257BB97B00EDED9E /* JetBrainsMono-Regular.ttf */; };
+		B940FDC9259D06710094D60B /* JetBrainsMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A02257BB97B00EDED9E /* JetBrainsMono-Thin.ttf */; };
 		B975A9B125852C70000B9EA5 /* IntroPart1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B975A9AF25852C6F000B9EA5 /* IntroPart1.mp4 */; };
 		B975A9B225852C70000B9EA5 /* IntroPart2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B975A9B025852C70000B9EA5 /* IntroPart2.mp4 */; };
 		B9AE69E8257BAF7C00EDED9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69E7257BAF7C00EDED9E /* AppDelegate.swift */; };
@@ -27,9 +41,26 @@
 		B9AE6A13257BB9E000EDED9E /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6A11257BB9E000EDED9E /* main.json */; };
 		B9AE6A16257BD73A00EDED9E /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE6A15257BD73A00EDED9E /* Lottie.framework */; };
 		B9AE6A17257BD73A00EDED9E /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE6A15257BD73A00EDED9E /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B9D12E84259682B700509355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D12E83259682B700509355 /* AppDelegate.swift */; };
+		B9D12E86259682B700509355 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D12E85259682B700509355 /* SceneDelegate.swift */; };
+		B9D12E88259682B700509355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D12E87259682B700509355 /* ViewController.swift */; };
+		B9D12E8B259682B700509355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D12E89259682B700509355 /* Main.storyboard */; };
+		B9D12E8D259682B900509355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D12E8C259682B900509355 /* Assets.xcassets */; };
+		B9D12E90259682B900509355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D12E8E259682B900509355 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		B940FDBD259D05770094D60B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B940FDBC259D05770094D60B /* LottieUITouch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9AE69FC257BAFAE00EDED9E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,6 +76,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B940FDBA259D05770094D60B /* LottieUITouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LottieUITouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B975A9AF25852C6F000B9EA5 /* IntroPart1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroPart1.mp4; sourceTree = "<group>"; };
 		B975A9B025852C70000B9EA5 /* IntroPart2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroPart2.mp4; sourceTree = "<group>"; };
 		B9AE69E4257BAF7C00EDED9E /* LottieUISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieUISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +98,14 @@
 		B9AE6A06257BB97B00EDED9E /* JetBrainsMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Light.ttf"; sourceTree = "<group>"; };
 		B9AE6A11257BB9E000EDED9E /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
 		B9AE6A15257BD73A00EDED9E /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D12E81259682B700509355 /* IosSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D12E83259682B700509355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9D12E85259682B700509355 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B9D12E87259682B700509355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9D12E8A259682B700509355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9D12E8C259682B900509355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9D12E8F259682B900509355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9D12E91259682B900509355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +118,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9D12E7E259682B700509355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B940FDBB259D05770094D60B /* LottieUITouch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				B9AE69E6257BAF7C00EDED9E /* LottieUISample */,
+				B9D12E82259682B700509355 /* IosSample */,
 				B9AE69E5257BAF7C00EDED9E /* Products */,
 				B9AE69F8257BAFAE00EDED9E /* Frameworks */,
 			);
@@ -94,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				B9AE69E4257BAF7C00EDED9E /* LottieUISample.app */,
+				B9D12E81259682B700509355 /* IosSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +168,7 @@
 		B9AE69F8257BAFAE00EDED9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B940FDBA259D05770094D60B /* LottieUITouch.framework */,
 				B9AE6A15257BD73A00EDED9E /* Lottie.framework */,
 				B9AE69F9257BAFAE00EDED9E /* LottieUI.framework */,
 			);
@@ -138,6 +189,20 @@
 				B9AE6A02257BB97B00EDED9E /* JetBrainsMono-Thin.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B9D12E82259682B700509355 /* IosSample */ = {
+			isa = PBXGroup;
+			children = (
+				B9D12E83259682B700509355 /* AppDelegate.swift */,
+				B9D12E85259682B700509355 /* SceneDelegate.swift */,
+				B9D12E87259682B700509355 /* ViewController.swift */,
+				B9D12E89259682B700509355 /* Main.storyboard */,
+				B9D12E8C259682B900509355 /* Assets.xcassets */,
+				B9D12E8E259682B900509355 /* LaunchScreen.storyboard */,
+				B9D12E91259682B900509355 /* Info.plist */,
+			);
+			path = IosSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,17 +226,38 @@
 			productReference = B9AE69E4257BAF7C00EDED9E /* LottieUISample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B9D12E80259682B700509355 /* IosSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D12E94259682B900509355 /* Build configuration list for PBXNativeTarget "IosSample" */;
+			buildPhases = (
+				B9D12E7D259682B700509355 /* Sources */,
+				B9D12E7E259682B700509355 /* Frameworks */,
+				B9D12E7F259682B700509355 /* Resources */,
+				B940FDBD259D05770094D60B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IosSample;
+			productName = IosSample;
+			productReference = B9D12E81259682B700509355 /* IosSample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B9AE69DC257BAF7C00EDED9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					B9AE69E3257BAF7C00EDED9E = {
 						CreatedOnToolsVersion = 12.2;
+					};
+					B9D12E80259682B700509355 = {
+						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
@@ -189,6 +275,7 @@
 			projectRoot = "";
 			targets = (
 				B9AE69E3257BAF7C00EDED9E /* LottieUISample */,
+				B9D12E80259682B700509355 /* IosSample */,
 			);
 		};
 /* End PBXProject section */
@@ -215,6 +302,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9D12E7F259682B700509355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B940FDC1259D06710094D60B /* JetBrainsMono-Light.ttf in Resources */,
+				B940FDC4259D06710094D60B /* JetBrainsMono-SemiBold.ttf in Resources */,
+				B940FDC0259D05FD0094D60B /* IntroPart2.mp4 in Resources */,
+				B9D12E90259682B900509355 /* LaunchScreen.storyboard in Resources */,
+				B940FDC6259D06710094D60B /* JetBrainsMono-ExtraLight.ttf in Resources */,
+				B940FDC9259D06710094D60B /* JetBrainsMono-Thin.ttf in Resources */,
+				B940FDBF259D05FA0094D60B /* IntroPart1.mp4 in Resources */,
+				B940FDC5259D06710094D60B /* JetBrainsMono-Bold.ttf in Resources */,
+				B940FDC7259D06710094D60B /* JetBrainsMono-Italic.ttf in Resources */,
+				B940FDC2259D06710094D60B /* JetBrainsMono-ExtraBold.ttf in Resources */,
+				B940FDC8259D06710094D60B /* JetBrainsMono-Regular.ttf in Resources */,
+				B9D12E8D259682B900509355 /* Assets.xcassets in Resources */,
+				B940FDC3259D06710094D60B /* JetBrainsMono-Medium.ttf in Resources */,
+				B940FDBE259D05F60094D60B /* main.json in Resources */,
+				B9D12E8B259682B700509355 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -227,6 +336,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9D12E7D259682B700509355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D12E88259682B700509355 /* ViewController.swift in Sources */,
+				B9D12E84259682B700509355 /* AppDelegate.swift in Sources */,
+				B9D12E86259682B700509355 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -236,6 +355,22 @@
 				B9AE69EE257BAF7D00EDED9E /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9D12E89259682B700509355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D12E8A259682B700509355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9D12E8E259682B900509355 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D12E8F259682B900509355 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -398,6 +533,49 @@
 			};
 			name = Release;
 		};
+		B9D12E92259682B900509355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 235885SBVV;
+				INFOPLIST_FILE = IosSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.clario.IosSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9D12E93259682B900509355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 235885SBVV;
+				INFOPLIST_FILE = IosSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.clario.IosSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +593,15 @@
 			buildConfigurations = (
 				B9AE69F5257BAF7D00EDED9E /* Debug */,
 				B9AE69F6257BAF7D00EDED9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D12E94259682B900509355 /* Build configuration list for PBXNativeTarget "IosSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D12E92259682B900509355 /* Debug */,
+				B9D12E93259682B900509355 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

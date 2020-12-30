@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B99A6F47258924F300BE9D43 /* LottieUITouch.h in Headers */ = {isa = PBXBuildFile; fileRef = B99A6F45258924F300BE9D43 /* LottieUITouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B99A6F692589265800BE9D43 /* AnimationBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F542589265400BE9D43 /* AnimationBox.swift */; };
+		B99A6F6F2589265D00BE9D43 /* AnimationProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F582589265500BE9D43 /* AnimationProgressIndicator.swift */; };
+		B99A6F702589265D00BE9D43 /* Lottie+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F5B2589265500BE9D43 /* Lottie+Extension.swift */; };
+		B99A6F712589265D00BE9D43 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F552589265400BE9D43 /* AnimationViewController.swift */; };
+		B99A6F722589265D00BE9D43 /* CompositeAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F5A2589265500BE9D43 /* CompositeAnimationButton.swift */; };
+		B99A6F732589265D00BE9D43 /* AnimationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F562589265400BE9D43 /* AnimationField.swift */; };
+		B99A6F742589265D00BE9D43 /* AnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F592589265500BE9D43 /* AnimationButton.swift */; };
+		B99A6F752589265D00BE9D43 /* AnimationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F532589265400BE9D43 /* AnimationContent.swift */; };
+		B99A6F762589265D00BE9D43 /* CoreGraphics+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F5C2589265500BE9D43 /* CoreGraphics+Extensions.swift */; };
+		B99A6F7D258926D800BE9D43 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99A6F7C258926D800BE9D43 /* Lottie.framework */; };
+		B99A6F7E258926D800BE9D43 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B99A6F7C258926D800BE9D43 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B9AE6984257ACD4300EDED9E /* LottieUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B9AE6982257ACD4300EDED9E /* LottieUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9AE69BD257AD59700EDED9E /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE69BC257AD59700EDED9E /* Lottie.framework */; };
 		B9AE69CA257AE67000EDED9E /* AnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C0257AE67000EDED9E /* AnimationButton.swift */; };
@@ -21,7 +33,36 @@
 		B9AE69D5257AE6C800EDED9E /* CoreGraphics+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69D4257AE6C800EDED9E /* CoreGraphics+Extensions.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B99A6F7F258926D800BE9D43 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B99A6F7E258926D800BE9D43 /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B99A6F43258924F300BE9D43 /* LottieUITouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LottieUITouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99A6F45258924F300BE9D43 /* LottieUITouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LottieUITouch.h; sourceTree = "<group>"; };
+		B99A6F46258924F300BE9D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99A6F4D2589253D00BE9D43 /* iOSDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOSDebug.xcconfig; sourceTree = "<group>"; };
+		B99A6F4E2589254E00BE9D43 /* iOSRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOSRelease.xcconfig; sourceTree = "<group>"; };
+		B99A6F532589265400BE9D43 /* AnimationContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationContent.swift; sourceTree = "<group>"; };
+		B99A6F542589265400BE9D43 /* AnimationBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationBox.swift; sourceTree = "<group>"; };
+		B99A6F552589265400BE9D43 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		B99A6F562589265400BE9D43 /* AnimationField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationField.swift; sourceTree = "<group>"; };
+		B99A6F582589265500BE9D43 /* AnimationProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationProgressIndicator.swift; sourceTree = "<group>"; };
+		B99A6F592589265500BE9D43 /* AnimationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationButton.swift; sourceTree = "<group>"; };
+		B99A6F5A2589265500BE9D43 /* CompositeAnimationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeAnimationButton.swift; sourceTree = "<group>"; };
+		B99A6F5B2589265500BE9D43 /* Lottie+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lottie+Extension.swift"; sourceTree = "<group>"; };
+		B99A6F5C2589265500BE9D43 /* CoreGraphics+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Extensions.swift"; sourceTree = "<group>"; };
+		B99A6F7C258926D800BE9D43 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AE697F257ACD4300EDED9E /* LottieUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LottieUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AE6982257ACD4300EDED9E /* LottieUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LottieUI.h; sourceTree = "<group>"; };
 		B9AE698E257ACEDF00EDED9E /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
@@ -42,6 +83,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B99A6F40258924F300BE9D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99A6F7D258926D800BE9D43 /* Lottie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9AE697C257ACD4300EDED9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B99A6F79258926AC00BE9D43 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				B99A6F4D2589253D00BE9D43 /* iOSDebug.xcconfig */,
+				B99A6F4E2589254E00BE9D43 /* iOSRelease.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
 		B9AE6975257ACD4300EDED9E = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				B9AE697F257ACD4300EDED9E /* LottieUI.framework */,
+				B99A6F43258924F300BE9D43 /* LottieUITouch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +162,18 @@
 		B9AE698D257ACDA800EDED9E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				B99A6F542589265400BE9D43 /* AnimationBox.swift */,
+				B99A6F592589265500BE9D43 /* AnimationButton.swift */,
+				B99A6F532589265400BE9D43 /* AnimationContent.swift */,
+				B99A6F562589265400BE9D43 /* AnimationField.swift */,
+				B99A6F582589265500BE9D43 /* AnimationProgressIndicator.swift */,
+				B99A6F552589265400BE9D43 /* AnimationViewController.swift */,
+				B99A6F5A2589265500BE9D43 /* CompositeAnimationButton.swift */,
+				B99A6F5C2589265500BE9D43 /* CoreGraphics+Extensions.swift */,
+				B99A6F5B2589265500BE9D43 /* Lottie+Extension.swift */,
+				B99A6F46258924F300BE9D43 /* Info.plist */,
+				B99A6F45258924F300BE9D43 /* LottieUITouch.h */,
+				B99A6F79258926AC00BE9D43 /* Configs */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -119,6 +190,7 @@
 		B9AE69BB257AD59700EDED9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B99A6F7C258926D800BE9D43 /* Lottie.framework */,
 				B9AE69BC257AD59700EDED9E /* Lottie.framework */,
 			);
 			name = Frameworks;
@@ -127,6 +199,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		B99A6F3E258924F300BE9D43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99A6F47258924F300BE9D43 /* LottieUITouch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9AE697A257ACD4300EDED9E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +218,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B99A6F42258924F300BE9D43 /* LottieUITouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99A6F4A258924F300BE9D43 /* Build configuration list for PBXNativeTarget "LottieUITouch" */;
+			buildPhases = (
+				B99A6F3E258924F300BE9D43 /* Headers */,
+				B99A6F3F258924F300BE9D43 /* Sources */,
+				B99A6F40258924F300BE9D43 /* Frameworks */,
+				B99A6F41258924F300BE9D43 /* Resources */,
+				B99A6F7F258926D800BE9D43 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottieUITouch;
+			productName = LottieUITouch;
+			productReference = B99A6F43258924F300BE9D43 /* LottieUITouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B9AE697E257ACD4300EDED9E /* LottieUI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9AE6987257ACD4300EDED9E /* Build configuration list for PBXNativeTarget "LottieUI" */;
@@ -164,6 +263,9 @@
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					B99A6F42258924F300BE9D43 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					B9AE697E257ACD4300EDED9E = {
 						CreatedOnToolsVersion = 12.2;
 						LastSwiftMigration = 1220;
@@ -184,11 +286,19 @@
 			projectRoot = "";
 			targets = (
 				B9AE697E257ACD4300EDED9E /* LottieUI */,
+				B99A6F42258924F300BE9D43 /* LottieUITouch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B99A6F41258924F300BE9D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9AE697D257ACD4300EDED9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +309,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B99A6F3F258924F300BE9D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99A6F752589265D00BE9D43 /* AnimationContent.swift in Sources */,
+				B99A6F762589265D00BE9D43 /* CoreGraphics+Extensions.swift in Sources */,
+				B99A6F6F2589265D00BE9D43 /* AnimationProgressIndicator.swift in Sources */,
+				B99A6F732589265D00BE9D43 /* AnimationField.swift in Sources */,
+				B99A6F712589265D00BE9D43 /* AnimationViewController.swift in Sources */,
+				B99A6F742589265D00BE9D43 /* AnimationButton.swift in Sources */,
+				B99A6F702589265D00BE9D43 /* Lottie+Extension.swift in Sources */,
+				B99A6F722589265D00BE9D43 /* CompositeAnimationButton.swift in Sources */,
+				B99A6F692589265800BE9D43 /* AnimationBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9AE697B257ACD4300EDED9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +345,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B99A6F48258924F300BE9D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99A6F4D2589253D00BE9D43 /* iOSDebug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 235885SBVV;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B99A6F49258924F300BE9D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99A6F4E2589254E00BE9D43 /* iOSRelease.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 235885SBVV;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B9AE6985257ACD4300EDED9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -235,15 +393,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9AE698F257ACFEB00EDED9E /* MacOSDebug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -251,20 +400,21 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9AE6990257ACFFF00EDED9E /* MacOSRelease.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B99A6F4A258924F300BE9D43 /* Build configuration list for PBXNativeTarget "LottieUITouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99A6F48258924F300BE9D43 /* Debug */,
+				B99A6F49258924F300BE9D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B9AE6979257ACD4300EDED9E /* Build configuration list for PBXProject "LottieUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
