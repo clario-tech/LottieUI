@@ -25,8 +25,20 @@ But don't forget to pull our submodules too!
 
 ### Swift Package Manager
 
-- LottieUI lib for MacOS
-- LottieUITouch lib for iOS
+1. Using Xcode go to File > Swift Packages > Add Package Dependency
+2. Paste the project URL: https://github.com/clario-tech/LottieUI.git
+3. Click on next and select the project target:
+    - LottieUI lib for MacOS
+    - LottieUITouch lib for iOS
+    - LottieUICouch lib for tvOS
+
+If you have doubts, please, check the following links:
+
+[How to use](https://developer.apple.com/videos/play/wwdc2019/408/)
+
+[Creating Swift Packages](https://developer.apple.com/videos/play/wwdc2019/410/)
+
+After successfully retrieved the package and added it to your project, just import `LottieUI` and you can get the full benefits of it.
 
 ### Binary
 

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B940FE91259E79FC0094D60B /* LottieUICouch.h in Headers */ = {isa = PBXBuildFile; fileRef = B940FE8F259E79FC0094D60B /* LottieUICouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B940FE97259E7A190094D60B /* CompositeAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F5A2589265500BE9D43 /* CompositeAnimationButton.swift */; };
+		B940FE98259E7A190094D60B /* AnimationBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F542589265400BE9D43 /* AnimationBox.swift */; };
+		B940FE99259E7A190094D60B /* AnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F592589265500BE9D43 /* AnimationButton.swift */; };
+		B940FE9A259E7A190094D60B /* AnimationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F532589265400BE9D43 /* AnimationContent.swift */; };
+		B940FE9B259E7A190094D60B /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F552589265400BE9D43 /* AnimationViewController.swift */; };
+		B940FE9C259E7A190094D60B /* CoreGraphics+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F5C2589265500BE9D43 /* CoreGraphics+Extensions.swift */; };
+		B940FE9D259E7A190094D60B /* Lottie+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F5B2589265500BE9D43 /* Lottie+Extension.swift */; };
+		B940FE9E259E7A190094D60B /* AnimationProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F582589265500BE9D43 /* AnimationProgressIndicator.swift */; };
+		B940FE9F259E7A190094D60B /* AnimationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F562589265400BE9D43 /* AnimationField.swift */; };
+		B940FEBF259F97790094D60B /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940FEBE259F97790094D60B /* Lottie.framework */; };
 		B99A6F47258924F300BE9D43 /* LottieUITouch.h in Headers */ = {isa = PBXBuildFile; fileRef = B99A6F45258924F300BE9D43 /* LottieUITouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B99A6F692589265800BE9D43 /* AnimationBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F542589265400BE9D43 /* AnimationBox.swift */; };
 		B99A6F6F2589265D00BE9D43 /* AnimationProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F582589265500BE9D43 /* AnimationProgressIndicator.swift */; };
@@ -18,7 +29,6 @@
 		B99A6F752589265D00BE9D43 /* AnimationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F532589265400BE9D43 /* AnimationContent.swift */; };
 		B99A6F762589265D00BE9D43 /* CoreGraphics+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A6F5C2589265500BE9D43 /* CoreGraphics+Extensions.swift */; };
 		B99A6F7D258926D800BE9D43 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99A6F7C258926D800BE9D43 /* Lottie.framework */; };
-		B99A6F7E258926D800BE9D43 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B99A6F7C258926D800BE9D43 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B9AE6984257ACD4300EDED9E /* LottieUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B9AE6982257ACD4300EDED9E /* LottieUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9AE69BD257AD59700EDED9E /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE69BC257AD59700EDED9E /* Lottie.framework */; };
 		B9AE69CA257AE67000EDED9E /* AnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69C0257AE67000EDED9E /* AnimationButton.swift */; };
@@ -33,21 +43,10 @@
 		B9AE69D5257AE6C800EDED9E /* CoreGraphics+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE69D4257AE6C800EDED9E /* CoreGraphics+Extensions.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		B99A6F7F258926D800BE9D43 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B99A6F7E258926D800BE9D43 /* Lottie.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		B940FE8D259E79FC0094D60B /* LottieUICouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LottieUICouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B940FE8F259E79FC0094D60B /* LottieUICouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LottieUICouch.h; sourceTree = "<group>"; };
+		B940FEBE259F97790094D60B /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99A6F43258924F300BE9D43 /* LottieUITouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LottieUITouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99A6F45258924F300BE9D43 /* LottieUITouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LottieUITouch.h; sourceTree = "<group>"; };
 		B99A6F46258924F300BE9D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +82,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B940FE8A259E79FC0094D60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B940FEBF259F97790094D60B /* Lottie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B99A6F40258924F300BE9D43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,6 +132,7 @@
 			children = (
 				B9AE697F257ACD4300EDED9E /* LottieUI.framework */,
 				B99A6F43258924F300BE9D43 /* LottieUITouch.framework */,
+				B940FE8D259E79FC0094D60B /* LottieUICouch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 				B99A6F5B2589265500BE9D43 /* Lottie+Extension.swift */,
 				B99A6F46258924F300BE9D43 /* Info.plist */,
 				B99A6F45258924F300BE9D43 /* LottieUITouch.h */,
+				B940FE8F259E79FC0094D60B /* LottieUICouch.h */,
 				B99A6F79258926AC00BE9D43 /* Configs */,
 			);
 			path = iOS;
@@ -190,6 +199,7 @@
 		B9AE69BB257AD59700EDED9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B940FEBE259F97790094D60B /* Lottie.framework */,
 				B99A6F7C258926D800BE9D43 /* Lottie.framework */,
 				B9AE69BC257AD59700EDED9E /* Lottie.framework */,
 			);
@@ -199,6 +209,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		B940FE88259E79FC0094D60B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B940FE91259E79FC0094D60B /* LottieUICouch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B99A6F3E258924F300BE9D43 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +236,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B940FE8C259E79FC0094D60B /* LottieUICouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B940FE92259E79FC0094D60B /* Build configuration list for PBXNativeTarget "LottieUICouch" */;
+			buildPhases = (
+				B940FE88259E79FC0094D60B /* Headers */,
+				B940FE89259E79FC0094D60B /* Sources */,
+				B940FE8A259E79FC0094D60B /* Frameworks */,
+				B940FE8B259E79FC0094D60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottieUICouch;
+			productName = LottieUICouch;
+			productReference = B940FE8D259E79FC0094D60B /* LottieUICouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B99A6F42258924F300BE9D43 /* LottieUITouch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B99A6F4A258924F300BE9D43 /* Build configuration list for PBXNativeTarget "LottieUITouch" */;
@@ -226,7 +262,6 @@
 				B99A6F3F258924F300BE9D43 /* Sources */,
 				B99A6F40258924F300BE9D43 /* Frameworks */,
 				B99A6F41258924F300BE9D43 /* Resources */,
-				B99A6F7F258926D800BE9D43 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,8 +296,11 @@
 		B9AE6976257ACD4300EDED9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					B940FE8C259E79FC0094D60B = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					B99A6F42258924F300BE9D43 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -287,11 +325,19 @@
 			targets = (
 				B9AE697E257ACD4300EDED9E /* LottieUI */,
 				B99A6F42258924F300BE9D43 /* LottieUITouch */,
+				B940FE8C259E79FC0094D60B /* LottieUICouch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B940FE8B259E79FC0094D60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B99A6F41258924F300BE9D43 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,6 +355,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B940FE89259E79FC0094D60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B940FE9D259E7A190094D60B /* Lottie+Extension.swift in Sources */,
+				B940FE9A259E7A190094D60B /* AnimationContent.swift in Sources */,
+				B940FE9E259E7A190094D60B /* AnimationProgressIndicator.swift in Sources */,
+				B940FE99259E7A190094D60B /* AnimationButton.swift in Sources */,
+				B940FE9F259E7A190094D60B /* AnimationField.swift in Sources */,
+				B940FE9B259E7A190094D60B /* AnimationViewController.swift in Sources */,
+				B940FE98259E7A190094D60B /* AnimationBox.swift in Sources */,
+				B940FE97259E7A190094D60B /* CompositeAnimationButton.swift in Sources */,
+				B940FE9C259E7A190094D60B /* CoreGraphics+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B99A6F3F258924F300BE9D43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,19 +407,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B940FE93259E79FC0094D60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99A6F4D2589253D00BE9D43 /* iOSDebug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B940FE94259E79FC0094D60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99A6F4E2589254E00BE9D43 /* iOSRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
 		B99A6F48258924F300BE9D43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B99A6F4D2589253D00BE9D43 /* iOSDebug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -365,15 +432,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B99A6F4E2589254E00BE9D43 /* iOSRelease.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -406,6 +464,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B940FE92259E79FC0094D60B /* Build configuration list for PBXNativeTarget "LottieUICouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B940FE93259E79FC0094D60B /* Debug */,
+				B940FE94259E79FC0094D60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B99A6F4A258924F300BE9D43 /* Build configuration list for PBXNativeTarget "LottieUITouch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

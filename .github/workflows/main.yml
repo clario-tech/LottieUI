@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build_mac:
+  build_macOS:
     runs-on: macos-latest
 
     steps:
@@ -23,7 +23,7 @@ jobs:
       with:
         name: LottieUI_Mac
         path: ci_build/Build/Products/Release
-  build_ios:
+  build_iOS:
     runs-on: macos-latest
 
     steps:
@@ -33,6 +33,22 @@ jobs:
     
     - name: Build
       run: xcodebuild build -workspace LottieUI.xcworkspace -scheme LottieUITouch -derivedDataPath ci_build -configuration Release
+      
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: LottieUI_iOS
+        path: ci_build/Build/Products/Release
+  build_tvOS:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+    
+    - name: Build
+      run: xcodebuild build -workspace LottieUI.xcworkspace -scheme LottieUICouch -derivedDataPath ci_build -configuration Release
       
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2

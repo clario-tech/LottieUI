@@ -21,7 +21,7 @@ class AnimationField: UITextField, AnimationContent {
         #if DEBUG
         borderStyle = .line
         #else
-        stringValue = ""
+        text = ""
         borderStyle = .none
         #endif
     }
@@ -31,7 +31,7 @@ class AnimationField: UITextField, AnimationContent {
         #if DEBUG
         borderStyle = .line
         #else
-        stringValue = ""
+        text = ""
         borderStyle = .none
         #endif
     }
