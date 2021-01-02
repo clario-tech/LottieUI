@@ -47,6 +47,8 @@
 		B940FE8D259E79FC0094D60B /* LottieUICouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LottieUICouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B940FE8F259E79FC0094D60B /* LottieUICouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LottieUICouch.h; sourceTree = "<group>"; };
 		B940FEBE259F97790094D60B /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B940FECC259FA64F0094D60B /* tvOSDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = tvOSDebug.xcconfig; sourceTree = "<group>"; };
+		B940FECD259FA6620094D60B /* tvOSRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = tvOSRelease.xcconfig; sourceTree = "<group>"; };
 		B99A6F43258924F300BE9D43 /* LottieUITouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LottieUITouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99A6F45258924F300BE9D43 /* LottieUITouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LottieUITouch.h; sourceTree = "<group>"; };
 		B99A6F46258924F300BE9D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,6 +116,8 @@
 			children = (
 				B99A6F4D2589253D00BE9D43 /* iOSDebug.xcconfig */,
 				B99A6F4E2589254E00BE9D43 /* iOSRelease.xcconfig */,
+				B940FECC259FA64F0094D60B /* tvOSDebug.xcconfig */,
+				B940FECD259FA6620094D60B /* tvOSRelease.xcconfig */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -170,15 +174,15 @@
 		B9AE698D257ACDA800EDED9E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B99A6F542589265400BE9D43 /* AnimationBox.swift */,
-				B99A6F592589265500BE9D43 /* AnimationButton.swift */,
+				B99A6F552589265400BE9D43 /* AnimationViewController.swift */,
 				B99A6F532589265400BE9D43 /* AnimationContent.swift */,
+				B99A6F592589265500BE9D43 /* AnimationButton.swift */,
+				B99A6F5A2589265500BE9D43 /* CompositeAnimationButton.swift */,
 				B99A6F562589265400BE9D43 /* AnimationField.swift */,
 				B99A6F582589265500BE9D43 /* AnimationProgressIndicator.swift */,
-				B99A6F552589265400BE9D43 /* AnimationViewController.swift */,
-				B99A6F5A2589265500BE9D43 /* CompositeAnimationButton.swift */,
-				B99A6F5C2589265500BE9D43 /* CoreGraphics+Extensions.swift */,
+				B99A6F542589265400BE9D43 /* AnimationBox.swift */,
 				B99A6F5B2589265500BE9D43 /* Lottie+Extension.swift */,
+				B99A6F5C2589265500BE9D43 /* CoreGraphics+Extensions.swift */,
 				B99A6F46258924F300BE9D43 /* Info.plist */,
 				B99A6F45258924F300BE9D43 /* LottieUITouch.h */,
 				B940FE8F259E79FC0094D60B /* LottieUICouch.h */,
@@ -409,14 +413,14 @@
 /* Begin XCBuildConfiguration section */
 		B940FE93259E79FC0094D60B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B99A6F4D2589253D00BE9D43 /* iOSDebug.xcconfig */;
+			baseConfigurationReference = B940FECC259FA64F0094D60B /* tvOSDebug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		B940FE94259E79FC0094D60B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B99A6F4E2589254E00BE9D43 /* iOSRelease.xcconfig */;
+			baseConfigurationReference = B940FECC259FA64F0094D60B /* tvOSDebug.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;

@@ -42,7 +42,7 @@ After successfully retrieved the package and added it to your project, just impo
 
 ### Binary
 
-Grab last artifacts from GithubActions or from Release page
+Grab last artifacts from [GithubActions](https://github.com/clario-tech/LottieUI/actions) or from [Release](https://github.com/clario-tech/LottieUI/releases) page
 
 ## Sample
 

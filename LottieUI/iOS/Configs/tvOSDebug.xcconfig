@@ -1,0 +1,10 @@
+//
+//  tvOSDebug.xcconfig
+//  LottieUI
+//
+//  Created by Viktor Radulov on 1/1/21.
+//
+
+#include "iOSDebug.xcconfig"
+
+SDKROOT = appletvos

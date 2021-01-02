@@ -15,7 +15,7 @@ open class AnimationViewController: NSViewController {
     
     public var animationView: AnimationView {
         assert(view as? AnimationView != nil, "Animation view controller root view should be AnimationView")
-        // Empty AnimationViewController() edge case on uninstalling
+        // Creating empty view to prevent from crashing.
         return (view as? AnimationView) ?? AnimationView()
     }
     

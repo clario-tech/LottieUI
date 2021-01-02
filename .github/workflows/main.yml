@@ -32,13 +32,13 @@ jobs:
         submodules: true
     
     - name: Build
-      run: xcodebuild build -workspace LottieUI.xcworkspace -scheme LottieUITouch -derivedDataPath ci_build -configuration Release
+      run: xcodebuild build -workspace LottieUI.xcworkspace -scheme LottieUITouch -derivedDataPath ci_build -configuration Release -destination generic/platform=iOS
       
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
       with:
         name: LottieUI_iOS
-        path: ci_build/Build/Products/Release
+        path: ci_build/Build/Products/Release-iphoneos
   build_tvOS:
     runs-on: macos-latest
 
@@ -48,10 +48,10 @@ jobs:
         submodules: true
     
     - name: Build
-      run: xcodebuild build -workspace LottieUI.xcworkspace -scheme LottieUICouch -derivedDataPath ci_build -configuration Release
+      run: xcodebuild build -workspace LottieUI.xcworkspace -scheme LottieUICouch -derivedDataPath ci_build -configuration Release -destination generic/platform=tvOS
       
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: LottieUI_iOS
-        path: ci_build/Build/Products/Release
+        name: LottieUI_tvOS
+        path: ci_build/Build/Products/Release-appletvos

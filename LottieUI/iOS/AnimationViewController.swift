@@ -9,13 +9,14 @@
 import UIKit
 import Lottie
 
+// View controller 
 open class AnimationViewController: UIViewController {
     
     private var canRunManualTransition = true
     
     public var animationView: AnimationView {
         assert(view as? AnimationView != nil, "Animation view controller root view should be AnimationView")
-        // Empty AnimationViewController() edge case on uninstalling
+        // Creating empty view to prevent from crashing.
         return (view as? AnimationView) ?? AnimationView()
     }
     
